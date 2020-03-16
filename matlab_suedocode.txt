@@ -1,0 +1,19 @@
+attractive force: F = G*M*m/r^2
+
+G = 6.674 * 10^-11 N*m^2/kg^2
+M = 1 kg
+m = 1 kg
+
+a(r) = r_double_dot - r*theta_dot^2 = G*M*m/r^2
+a(theta) = r*theta_double_dot + 2*r_dot*theta_dot = 0
+
+r_double_dot = G*M*m/r^2 + r*theta_dot^2
+theta_double_dot = -2*r_dot*theta_dot/r
+
+n(1) = r		n(1)_dot = n(2)
+n(2) = r_dot		n(2)_dot = r_double_dot
+n(3) = theta		n(3)_dot = n(4)
+n(4) = theta_dot	n(4) = theta_double_dot
+
+x = r*cos(theta)
+y = r*sin(theta)
